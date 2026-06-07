@@ -1,3 +1,46 @@
+/* ── Design tokens ──────────────────────────────────────────────────────────
+   All colours and key sizes live here. Swap this block to re-skin the app.   */
+:root {
+  /* Background layers */
+  --bg-base:      #0E0F11;
+  --bg-surface:   #141618;
+  --bg-elevated:  #1A1C20;
+
+  /* Borders */
+  --border:       #1E2025;
+  --border-muted: #2A2C30;
+
+  /* Text */
+  --text-primary:  #F0EDE6;
+  --text-body:     #E8E4DC;
+  --text-secondary:#AAA;
+  --text-muted:    #888;
+  --text-faint:    #555;
+
+  /* Day accent colours */
+  --day-a:        #E85A2D;
+  --day-a-accent: #FF8C60;
+  --day-b:        #2D7DE8;
+  --day-b-accent: #60AAFF;
+  --day-c:        #2DB87A;
+  --day-c-accent: #50DFA0;
+
+  /* Exercise type strip colours */
+  --type-warmup-bg:    rgba(255,200,100,0.10);
+  --type-warmup-line:  #FFB800;
+  --type-main-bg:      rgba(255,255,255,0.03);
+  --type-main-line:    #444;
+  --type-cardio-bg:    rgba(100,220,180,0.10);
+  --type-cardio-line:  #2DB87A;
+  --type-cooldown-bg:  rgba(150,150,255,0.10);
+  --type-cooldown-line:#7A7AE8;
+
+  /* Spacing */
+  --content-max: 680px;
+  --radius:       12px;
+  --radius-sm:    8px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
